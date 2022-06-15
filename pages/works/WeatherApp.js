@@ -4,21 +4,22 @@ import {ExtenalLinkIcon} from '@chakra-ui/icons'
 import {Title,WorkImage,Meta} from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
+import Fonts from "../../components/fonts";
 
 const Work = () => {
     return(
-        <Layout title="snake">
+        <Layout title="WeatherApp">
             <Container>
                 <Title>
-                    snake <Badge>2022</Badge>
+                    WeatherApp <Badge>2022</Badge>
                  </Title>
                  <P>
-                    The Snake Game project was created in Python there are many snake games out there.
-                    This was just something fun to create in Python. 
+                  This project was a demo created to display the weather of an area using a Public Api.
+                  The language it is written in is Python.
                     
                 </P>
                 <Meta>Github Link:</Meta>
-                <Link href="https://github.com/NickMadero/snake_game.git" target="_blank">SnakeGame</Link>
+                <Link href="https://github.com/NickMadero/weather_app.git" target="_blank">WeatherApp</Link>
                 <List ml={4} my={4}></List>
 
             </Container>

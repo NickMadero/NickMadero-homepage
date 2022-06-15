@@ -3,6 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbSnake from '../public/images/snake.png'
 import Layout from '../components/layouts/article'
+import thumbWeather from '../public/images/WeatherApp.jpg'
 const Works = () =>{
     return (
       <Layout>
@@ -14,12 +15,21 @@ const Works = () =>{
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="snake" title="SnakeGame" thumbnail={thumbSnake}>
-            A simple Snake Game with a score counter and high score counter
+            A simple Snake Game with a score counter and high score counter.
            
           </WorkGridItem>
           
         </Section>
         </SimpleGrid>
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+      <Section>
+        <WorkGridItem id="WeatherApp" title="WeatherApp" thumbnail={thumbWeather}>
+          The Weather Application project
+        </WorkGridItem>
+      </Section>
+        </SimpleGrid >
+
         </Container>
         </Layout>
     )
