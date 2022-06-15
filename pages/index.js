@@ -44,8 +44,7 @@ const Page = () => {
                 <Heading as="h2" variant="section-title">More Info</Heading>
                 <BioSection><br></br>
                     <Meta>programming Langauges</Meta>: Python, java/JavaScript, html, CSS, C. 
-
-                    <p></p>
+                  <br />  <Meta>IDE</Meta>:eclispe, pycharm visual studio code, command line edting such as emacs.
                 </BioSection>
             </Section>
         </Container>
