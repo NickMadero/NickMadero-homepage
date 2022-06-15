@@ -5,6 +5,9 @@ import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import Layout from "../components/layouts/article"
+import { Meta } from "../components/work"
+import {BioSection} from "../components/bio"
+
 const Page = () => {
     return (
         <Layout>
@@ -36,6 +39,14 @@ const Page = () => {
                     <Button rightIcon={<ChevronRightIcon></ChevronRightIcon>} colorScheme="teal">My projects</Button>
                 </NextLink>
             </Box>
+            </Section>
+            <Section >
+                <Heading as="h2" variant="section-title">More Info</Heading>
+                <BioSection><br></br>
+                    <Meta>programming Langauges</Meta>: Python, java/JavaScript, html, CSS, C. 
+
+                    <p></p>
+                </BioSection>
             </Section>
         </Container>
         </Layout>
