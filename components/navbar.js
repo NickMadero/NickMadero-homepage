@@ -65,7 +65,7 @@ const Navbar = props => {
             Works
           </LinkItem>
           <LinkItem href="/posts" path={path}>
-            Resume
+            Resume/updates
           </LinkItem>
           <a href='https://github.com/NickMadero' target='_blank'>
             GitHub
