@@ -67,9 +67,12 @@ const Navbar = props => {
           <LinkItem href="/posts" path={path}>
             Resume/updates
           </LinkItem>
-          <a href='https://github.com/NickMadero' target='_blank'>
+          <Link href='https://github.com/NickMadero' target='_blank'>
             GitHub
-          </a>
+          </Link>
+          <Link href='https://www.linkedin.com/in/nicholas-madero-43546723a/'target="_blank">
+            Linkedin
+          </Link>
         </Stack>
 
         <Box flex={1} align="right">|
@@ -79,7 +82,7 @@ const Navbar = props => {
             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options"/>
             <MenuList>
                 <NextLink href="/" passHref>
-                    <MenuItem as={Link}>about</MenuItem>
+                    <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                     <MenuItem as={Link}>Works</MenuItem>
@@ -87,10 +90,12 @@ const Navbar = props => {
                 <NextLink href="/posts" passHref>
                     <MenuItem as={Link}>Resume</MenuItem>
                 </NextLink>
-               
-                    <MenuItem as={Link} href="https://www.craftz.dog/">
-                        view credit</MenuItem>
-               
+
+                   <MenuItem as={Link} href="https://www.linkedin.com/in/nicholas-madero-43546723a/" target="_blank"> My linkedin</MenuItem>
+
+                <MenuItem as={Link} href="https://www.craftz.dog/" target="_blank">
+                    View Credit</MenuItem>
+            
             </MenuList>
                </Menu>   
         </Box>
