@@ -43,7 +43,7 @@ const Page = () => {
             <Section >
                 <Heading as="h2" variant="section-title">More Info</Heading>
                 <BioSection><br></br>
-                    <Meta>programming Langauges</Meta>: Python, java/JavaScript, html, CSS, C. 
+                    <Meta>programming Langauges</Meta>: Python, java/JavaScript, html, CSS, C. <br/>
                   <br />  <Meta>IDE</Meta>:eclispe, pycharm visual studio code, command line edting such as emacs.
                 </BioSection>
             </Section>
