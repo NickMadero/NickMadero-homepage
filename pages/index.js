@@ -15,6 +15,7 @@ const Page = () => {
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
             Hello I am a Computer Science student learning to code
             </Box>
+
             <Box display={{md:'flex'}}>
             <Box flexGrow={1}>
             <Heading as = "h2" variant = "page-title">
@@ -22,14 +23,17 @@ const Page = () => {
             </Heading>
             <p> computer science student ( software developer in the making )</p>
             </Box>
+
             <Box flexShrink={0} mt={{base : 4, md: 0}} ml= {{md: 6}} align="center" >
                 <Image borderColor= "whiteAlpha.800" borderWidth={2} borderStyle="soild" maxWidth="100px" display="inline-block" borderRadius="full" src="/images/nick.jpg"alt= "profile picture" />
             </Box>
             </Box>
+
             <Section delay={.1}>
                 <Heading as="h2"  variant="section-title">
                     About me
                 </Heading>
+
                 <Paragraph> <br />
                 computer science undergraduate student learning about frontend/backend of web development. 
                 I'm currently working on this website as I hope to update it with a new project or updates about projects.
@@ -38,13 +42,16 @@ const Page = () => {
                 <NextLink href="/works">
                     <Button rightIcon={<ChevronRightIcon></ChevronRightIcon>} colorScheme="teal">My projects</Button>
                 </NextLink>
+
             </Box>
             </Section>
+
             <Section >
                 <Heading as="h2" variant="section-title">More Info</Heading>
                 <BioSection><br></br>
                     <Meta>programming Langauges</Meta>: Python, java/JavaScript, html, CSS, C. <br/>
-                  <br />  <Meta>IDE</Meta>:eclispe, pycharm visual studio code, command line edting such as emacs.
+                  <br />  <Meta>IDE:</Meta>eclispe, pycharm visual studio code, command line edting such as emacs.
+                <br />  <Meta> Email:</Meta>madero22@students.rowan.edu 
                 </BioSection>
             </Section>
         </Container>

@@ -1,4 +1,4 @@
-import {Container, Box,Heading,SimpleGride, Divider, SimpleGrid, Link, Img} from '@chakra-ui/react'
+import {Container, Box,Heading, Divider, SimpleGrid, Link, Img} from '@chakra-ui/react'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 import thumbSnake from '../public/images/snake.png'
