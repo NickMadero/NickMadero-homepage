@@ -88,7 +88,7 @@ const Navbar = props => {
                     <MenuItem as={Link}>Works</MenuItem>
                 </NextLink>
                 <NextLink href="/posts" passHref>
-                    <MenuItem as={Link}>Resume</MenuItem>
+                    <MenuItem as={Link}>Resume/Update</MenuItem>
                 </NextLink>
 
                    <MenuItem as={Link} href="https://www.linkedin.com/in/nicholas-madero-43546723a/" target="_blank"> My linkedin</MenuItem>
