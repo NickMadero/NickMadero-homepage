@@ -4,6 +4,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbSnake from '../public/images/snake.png'
 import Layout from '../components/layouts/article'
 import thumbWeather from '../public/images/WeatherApp.jpg'
+import thumbtest from   '../public/images/bot.jpg'
 const Works = () =>{
     return (
       <Layout>
@@ -26,6 +27,16 @@ const Works = () =>{
       <Section>
         <WorkGridItem id="WeatherApp" title="WeatherApp" thumbnail={thumbWeather}>
           The Weather Application project
+        </WorkGridItem>
+      </Section>
+        </SimpleGrid >
+
+
+        
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+      <Section>
+        <WorkGridItem id="bot" title="bot" thumbnail={thumbtest}>
+         a basic discord bot
         </WorkGridItem>
       </Section>
         </SimpleGrid >

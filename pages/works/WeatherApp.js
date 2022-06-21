@@ -12,7 +12,7 @@ const Work = () => {
         <Layout title="WeatherApp">
             <Container>
                 <Title>
-                    WeatherApp <Badge>2022</Badge>
+                    WeatherApp <Badge>May 2022</Badge>
                  </Title>
                  <P>
                   This project was a demo created to display the weather of an area using a Public Api.

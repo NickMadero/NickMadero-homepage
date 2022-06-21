@@ -10,7 +10,7 @@ const Work = () => {
         <Layout title="snake">
             <Container>
                 <Title>
-                    snake <Badge>2022</Badge>
+                    snake <Badge>May 2022</Badge>
                  </Title>
                  <P>
                     The Snake Game project was created in Python there are many snake games out there.
