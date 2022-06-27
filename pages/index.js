@@ -60,12 +60,14 @@ const Page = () => {
             </Section>
             <Section>
             <Heading as="h2" variant="section-title">credit: </Heading> <br />
-            <Link href="https://www.craftz.dog/">Takuya MatsuyamaS</Link>
+            <Link href="https://www.craftz.dog/">Takuya Matsuyamas</Link> is the inspiration for website.<br></br>
+            I launched this website using AWS Amplify.
+
             </Section>
         </Container>
-        
+            
         </Layout>
-       
+
     )
 }
 export default Page
