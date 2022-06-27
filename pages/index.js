@@ -11,7 +11,7 @@ import {BioSection} from "../components/bio"
 
 const Page = () => {
     return (
-        <Layout>
+        <Layout >
                     <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
             Hello I am a Computer Science student learning to code<br></br>
@@ -49,7 +49,7 @@ const Page = () => {
             </Section>
 
             <Section >
-                <Link href="https://drive.google.com/file/d/1ED_R7QUD7wKGx_DWDHwmm6xbnnn0hPof/view?usp=sharing">
+                <Link href="https://drive.google.com/file/d/1WmxbTKFx8nLkfzyW8kDyA7H99l0TBcPl/view?usp=sharing">
                 <Heading as="h2" variant="section-title">More Info</Heading>
                 </Link>
                 <BioSection><br></br>
