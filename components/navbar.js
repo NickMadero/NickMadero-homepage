@@ -1,6 +1,6 @@
 import Logo from './logo'
 import NextLink from 'next/link'
-import {
+import {Image,
     Container,
     Box,
     Link,
@@ -68,10 +68,10 @@ const Navbar = props => {
             Resume/updates
           </LinkItem>
           <Link href='https://github.com/NickMadero' target='_blank'>
-            GitHub
+            <Image maxWidth="30px" src='/images/github.jpg'></Image>
           </Link>
           <Link href='https://www.linkedin.com/in/nicholas-madero-43546723a/'target="_blank">
-            Linkedin
+            <Image maxWidth="30px" src='/images/linkedin.jpg'></Image>
           </Link>
         </Stack>
 
