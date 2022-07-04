@@ -5,6 +5,7 @@ import thumbSnake from '../public/images/snake.png'
 import Layout from '../components/layouts/article'
 import thumbWeather from '../public/images/WeatherApp.jpg'
 import thumbtest from   '../public/images/bot.jpg'
+import loading from '../public/images/loading.jpg'
 const Works = () =>{
     return (
       <Layout>
@@ -37,6 +38,14 @@ const Works = () =>{
       <Section>
         <WorkGridItem id="bot" title="bot" thumbnail={thumbtest}>
          a basic discord bot
+        </WorkGridItem>
+      </Section>
+        </SimpleGrid >
+
+        <SimpleGrid columns={[1,1,2]} gap={6}>
+      <Section>
+        <WorkGridItem id="GuiWeather" title="GuiWeather" thumbnail={loading}>
+         better verison of the weather app (coming soon)
         </WorkGridItem>
       </Section>
         </SimpleGrid >
