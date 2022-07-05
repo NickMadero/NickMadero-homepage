@@ -42,13 +42,7 @@ const Works = () =>{
       </Section>
         </SimpleGrid >
 
-        <SimpleGrid columns={[1,1,2]} gap={6}>
-      <Section>
-        <WorkGridItem id="GuiWeather" title="GuiWeather" thumbnail={loading}>
-         better verison of the weather app (coming soon)
-        </WorkGridItem>
-      </Section>
-        </SimpleGrid >
+      
 
         </Container>
         </Layout>
