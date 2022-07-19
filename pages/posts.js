@@ -18,7 +18,7 @@ const Posts = () => (
             <GridItem
               title="my Resume (click on Image for a better viewing experience)."
               thumbnail={Resume}
-              href='https://drive.google.com/file/d/1WmxbTKFx8nLkfzyW8kDyA7H99l0TBcPl/view?usp=sharing'
+              href='https://drive.google.com/file/d/1mibCQ8cdyvObQfH7oWZ5S6B9B4BMuDS4/view?usp=sharing'
             />
             <GridItem 
             title="website updates"
